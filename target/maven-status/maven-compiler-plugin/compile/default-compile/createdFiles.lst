@@ -1,0 +1,4 @@
+fr\miage\filestore\BinaryStreamNotFoundException.class
+fr\miage\filestore\BinaryStoreServiceImp.class
+fr\miage\filestore\BinaryStoreService.class
+fr\miage\filestore\BinaryStoreServiceException.class
