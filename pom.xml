@@ -23,7 +23,7 @@
       <timezone>Europe/Paris</timezone>
     </developer>
   </developers>
-    <build>
+  <build>
     <plugins>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
@@ -36,7 +36,6 @@
       </plugin>
     </plugins>
   </build>
-   
   <dependencies>
   	<dependency>
   		<groupId>junit</groupId>
@@ -45,5 +44,4 @@
   		<scope>test</scope>
   	</dependency>
   </dependencies>
-  
 </project>
