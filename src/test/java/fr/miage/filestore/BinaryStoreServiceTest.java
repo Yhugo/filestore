@@ -21,7 +21,7 @@ public class BinaryStoreServiceTest {
 	
 	@BeforeClass
 	public static void init() {
-		//TODO create service
+		service = new BinaryStoreServiceImp();
 	}
 	
 	@Before
@@ -61,7 +61,7 @@ public class BinaryStoreServiceTest {
 				baos.write(b);
 			}
 			String retreive = new String(baos.toByteArray()); 
-			assertEquals(retreive, original);
+			assertEquals(content, retreive);
 		} catch (IOException e) {
 			fail(e.getMessage());
 		}
